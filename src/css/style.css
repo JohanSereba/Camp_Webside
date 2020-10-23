@@ -1,0 +1,309 @@
+
+* {
+    margin: 10px;
+    padding: 0;
+
+}
+
+.logo {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.top-menu {
+    margin: 5px 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: "shadows into Light", sans-serif;
+    background-color: gainsboro;
+}
+
+.navbar {
+    width: 100%;
+    height: 70px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+
+
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+
+/*-----------hero---------
+insperation: https://www.w3schools.com/howto/howto_css_hero_image.asp
+*/
+.heroImage {
+    height: 500px;
+    background: url("https://images.unsplash.com/photo-1554523449-209945dde0c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1867&q=80") no-repeat center;
+    position: relative;
+
+}
+
+.heroContents {
+    padding-top: 150px;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 7em;
+    font-weight: bold;
+    font-family: "shadows into Light", sans-serif
+
+}
+
+p {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px;
+    max-width: 150%;
+    line-height: 1.4;
+    background-color: gainsboro;
+    font-size: 20px;
+    font-weight: revert;
+    font-family: "shadows into Light", sans-serif
+
+}
+
+/* https://www.bestcssbuttongenerator.com/ */
+.myButton {
+    margin-top: 10px;
+    box-shadow: inset 0 1px 0 0 #fff6af;
+    background: #ffec64 linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+    border-radius: 6px;
+    border: 1px solid #ffaa22;
+    display: inline-block;
+    cursor: pointer;
+    color: #333333;
+    font-family: Arial, serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+
+    text-decoration: none;
+    text-shadow: 0 1px 0 #ffee66;
+    width: 3%;
+}
+
+.myButton:hover {
+    background: #ffab23 linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+
+.containers {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    max-width: 150%;
+    justify-content: space-between;
+    background-color: gainsboro;
+    font-size: 20px;
+    font-family: "shadows into Light", sans-serif;
+    font-weight: inherit;
+
+}
+
+.containers h2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-top: 20px;
+    font-size: 24px;
+
+
+}
+
+.containers p {
+    line-height: 1.4;
+    font-family: "Source Sans Pro", sans-serif;
+
+}
+
+
+.kids {
+    float: right;
+    object-fit: cover;
+    max-height: 450px;
+    width: 100%;
+    border-radius: 5%;
+    padding: 16px;
+
+}
+
+
+.myButton-2 {
+    margin-top: 10px;
+    box-shadow: inset 0 1px 0 0 #fff6af;
+    background: #ffec64 linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+    border-radius: 6px;
+    border: 1px solid #ffaa22;
+    display: inline-block;
+    cursor: pointer;
+    color: #333333;
+    font-family: Arial, serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 40px 6px 20px;
+
+    text-decoration: none;
+    text-shadow: 0 1px 0 #ffee66;
+    width: 3%;
+}
+
+/*-----------footer---------*/
+
+
+footer {
+    margin: 0 20px;
+    display: flex;
+    max-width: 150%;
+    height: 150px;
+    background-color: #333333;
+    justify-content: space-between;
+
+}
+
+.footer-links li {
+    list-style: none;
+    justify-content: center;
+}
+
+
+.footer-links a {
+    color: #ffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+/* Footer social media icons:
+ https://www.w3schools.com/howto/howto_css_social_media_buttons.asp
+ */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+/* Facebook */
+.fa-facebook {
+    background: #ffffff;
+    color: black;
+    border-radius: 30%;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #ffffff;
+    color: black;
+    border-radius: 30%;
+}
+
+/* Instagram */
+.fa-instagram {
+    background: #ffffff;
+    color: black;
+    border-radius: 30%;
+}
+
+.solution h1 {
+    font-size: 32px;
+}
+
+.solution {
+    background-color: gainsboro;
+    line-height: 1.5;
+}
+
+.about h2 {
+    background-color: gainsboro;
+    font-size: 32px;
+}
+
+.about {
+    background-color: gainsboro;
+    line-height: 1.5;
+}
+
+
+/*----------------contact---------------
+https://www.w3schools.com/howto/howto_css_contact_form.asp
+*/
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+.contact {
+    border-radius: 5px;
+    background-color: gainsboro;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
